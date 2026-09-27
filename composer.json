@@ -1,0 +1,11 @@
+{
+    "name": "student/todo-list-app",
+    "description": "To-Do List Web Application with DevOps CI/CD Pipeline",
+    "type": "project",
+    "require": {
+        "mpdf/mpdf": "^8.0"
+    },
+    "scripts": {
+        "test": "php tests/test_runner.php"
+    }
+}

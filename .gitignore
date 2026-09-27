@@ -1,0 +1,52 @@
+# ========================================================
+# Git Ignore Configuration - To-Do List Web Application
+# ========================================================
+
+# Environment and Secrets (CRITICAL: Never commit credentials!)
+.env
+.env.local
+.env.*.local
+*.env
+
+# Dependencies (Installed via Composer)
+/vendor/
+/node_modules/
+
+# Build artifacts & packages
+/build/
+/dist/
+*.zip
+*.tar.gz
+
+# Application logs & cache
+*.log
+error_log
+/logs/
+/tmp/
+/temp/
+
+# User-generated exports
+TodoList_*.txt
+*.pdf
+
+# IDE and Editor configuration
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# Legacy / Non-PHP Project Assets (Excluding large java folders from git)
+java-simple/
+java-standalone/
+java-version/
+java-standalone.zip
