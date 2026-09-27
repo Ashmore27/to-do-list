@@ -416,5 +416,4 @@ Follow this script to demonstrate the complete DevOps lifecycle to your project 
 > * **Polling (Pull Model)**: Jenkins repeatedly checks GitHub at regular intervals (e.g. every 5 minutes) asking if new commits exist. It is less responsive and wastes CPU cycles, but works when Jenkins is behind a firewall/NAT.
 
 ### Q7: What purpose does `healthcheck.php` serve in the DevOps lifecycle?
-> **Answer**: It represents the **Monitor / Operate** stage. By returning a standardized JSON response verifying web server uptime and database connectivity, it allows post-deployment automated verification and external monitoring services (like UptimeRobot) to alert administrators if the service goes down.#   t o - d o - l i s t  
- 
+> **Answer**: It represents the **Monitor / Operate** stage. By returning a standardized JSON response verifying web server uptime and database connectivity, it allows post-deployment automated verification and external monitoring services (like UptimeRobot) to alert administrators if the service goes down.
