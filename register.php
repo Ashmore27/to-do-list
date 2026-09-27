@@ -16,7 +16,7 @@ if ($_POST) {
         $stmt = $pdo->prepare("SELECT id FROM users WHERE email = ?");
         $stmt->execute([$email]);
         
-        if ($stmt->rowCount() > 0) {
+        if ($stmt->fetch()) {
             $error = 'Email already registered';
         } else {
             // Hash password and insert user
